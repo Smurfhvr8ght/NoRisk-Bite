@@ -1,4 +1,4 @@
-body {
+.login_body {
     margin: 0;
     padding: 0;
     background-color: #f0f2f5;
@@ -62,4 +62,65 @@ body {
 
 .button-group .button {
     flex: 1;
+}
+
+.main_header { 
+    position: sticky;
+    top: 0;
+    padding: 20px 16px;
+    background: black;
+    color: #ffffff;
+    z-index: 1000;
+}
+
+.header_divider {
+    border: none;
+    height: 5px;
+    background-color: white; 
+    margin: 0;
+}
+
+.header_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.logo {
+    height: 60px;
+    width: auto;
+    margin-left: 20px;
+}
+
+.header_content {
+    text-align: center;
+    flex-grow: 1;
+    margin: 0;
+}
+
+.nav_links {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.header_link {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 18pt;
+}
+
+.header_link:hover {
+    text-decoration: underline;
+}
+
+.profile_pic {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 20px;
 }
