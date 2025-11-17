@@ -1,0 +1,28 @@
+.restaurant-column {
+    background-color: #d3d3d3; /* grey column */
+    width: 75%; /* 3/4 of page width */
+    padding: 30px;
+    border-radius: 15px;
+    box-sizing: border-box;
+    margin: 20px auto; /* center horizontally with margin top */
+}
+
+.restaurant-box {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+.restaurant-box h3 {
+    margin: 0 0 8px 0;
+    color: #333;
+}
+
+.restaurant-box p {
+    margin: 4px 0;
+    color: #555;
+}
